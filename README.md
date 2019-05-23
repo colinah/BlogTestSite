@@ -69,3 +69,25 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # TestSite
 # BlogTestSite
 # BlogTestSite
+
+Github Notes-
+•	Mac Command Terminal:
+o	cd ..  :goes up one directory
+o	cd <directory name> : goes into that folder
+o	ls : shows list of folders in current directory
+o	git clone <URL of clone> : gets clone and puts in it current diretory
+o	git status : tells you what is different from your current verson and git’s repository.
+o	Git add <name, .(period does all modiefid files), -A(A does all files)>: adds a file to be commited to the git repository
+o	Git commit : actually commits the git repository if you have added one already but it is still on your machine
+o	Git commit –m “message”: the –m is more message you can add messages to the commits. If you hit enter without the -m  you need to hit esc then type  :wq then enter
+o	Git push: will update your commits to online repository
+o	Git pull:will pull what is online into that directory
+o	Git add –A: adds everything in your directory to commit.
+o	Git branch <name> : creates a new branch
+o	Git checkout <name> : switches to named branch
+o	Git merge <name> : Important that you are on the branch you want to be the final merge so if you are merging a working branch to the master branch first checkout into the master branch then merge the working branch into the master branch. You merge from named branch into current branch.
+o	Git branch –D <name> deletes a branch
+o	Git push origin <name> to push things onto a named branch
+o	git remote set-url origin <url> change the set origin if you are submitting to the wrong repository or didn’t set up correctly initially
+To learn more and get OneNote, visit www.onenote.com.
+
